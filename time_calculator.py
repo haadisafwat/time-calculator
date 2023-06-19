@@ -35,12 +35,8 @@ def add_time(start, duration):
 
   return time_end
 
-print(add_time("11:55 AM", "3:12"))  # Output: 3:07 PM
-print(add_time("9:15 PM", "5:30"))  # Output: 2:45 AM (next day)
-print(add_time("11:40 PM", "0:25"))  # Output: 12:05 AM (next day)
-print(add_time("2:59 AM", "24:00"))  # Output: 2:59 AM (next day)
-print(add_time("11:59 PM", "24:05"))  # Output: 12:04 AM (2 days later)
-print(add_time("8:16 PM", "466:02"))
+print(add_time("10:50 AM", "4:12")) 
+
 
   
   
